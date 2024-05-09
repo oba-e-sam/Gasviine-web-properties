@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    
+    <!--font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!--custom css fie link-->
+    <link rel="stylesheet" href="Assests/css/style.css">
+    <link rel="stylesheet" href="Assests/js/script.js">
+
+
+</head>
+<body>
+    <!--Header section starts-->
+
+    <header class="Header">
+        <nav class="navbar nav-1">
+            <section class="flex">
+                <a href="home.html" class="logo"><i class="fas fa-house"></i>Gasvine</a>
+
+                <ul>
+                    <li><a href="">post properties<i class="fas fa-paper-plane"></i></a></li>
+                </ul>
+
+
+            
+            </section>
+        </nav>
+
+        <nav class="navbar nav-2">
+            <section class="flex">
+                <div id="menu-btn" class="fas fa-bars"></div>
+
+                <div class="menu">
+                    <ul>
+                        <li><a href="#">buy<i class="fas fa-angle-down"></i></a>
+                            <ul>
+                                <li><a href="#">Land</a></li>
+                                <li><a href="#">Furnished Apartment</a></li>
+                                <li><a href="#">scheme</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">sell<i class="fas fa-angle-down"></i></a>
+                            <ul>
+                                <li><a href="#">Land</a></li>
+                                <li><a href="#">house</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Services<i class="fas fa-angle-down"></i></a>
+                            <ul>
+                                <li><a href="#">Property Management</a></li>
+                                <li><a href="#">Estate Valuation</a></li>
+                                <li><a href="#">Facility Management</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Help<i class="fas fa-angle-down"></i></a>
+                            <ul>
+                                <li><a href="about.html">About Us</a></li>
+                                <li><a href="contact.html">Contact us</a></li>
+                                <li><a href="contact.html#faq">FAQ</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+
+                <ul>
+                    <li><a href="#">saved <i class="fas fa-heart"></i></a></li>
+                    <li><a href="#">account <i class="fas fa-arrow-down"></i></a>
+                        <ul>
+                            <li><a href="login.html">login</a></li>
+                            <li><a href="register.html">signup</a></li>
+                        </ul>
+                    </li>
+                    
+                </ul>
+
+            </section>
+        </nav>
+
+
+
+    </header>
+
+    <!--Header section ends-->
+
+    <!--Home section starts-->
+    <div class="Home">
+
+        <section class="flex">
+            <form action="search.html" method="post">
+                <h3>Find your perfect Home!</h3>
+                <div class="box">
+                    <p>Enter location <span>*</span></p>
+                    <input type="text" name="location" required maxlength="50" placeholder="Enter city name" class="input">
+                </div>
+                <div class="flex">
+                    <div class="box">
+                        <p>Property Type <span>*</span></p>
+                        <select name="type" class="input" required>
+                            <option value="land">Land</option>
+                            <option value="Furnished Apartment">Apartment</option>
+                            <option value="scheme">scheme</option>
+                        </select>
+                       
+                    </div>
+                    <div class="box">
+                        <p>no. of properties <span>*</span></p>
+                        <select name="BHK" class="input" required>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                        </select>
+                       
+                    </div>
+                    <div class="box">
+                        <p>Minimum Budget <span>*</span></p>
+                        <select name="Minimum" class="input" required>
+                            <option value="1500000">1.5 mil</option>
+                            <option value="2000000">2 mil</option>
+                            <option value="3000000">3 mil</option>
+                            <option value="4000000">4 mil</option>
+                            <option value="5000000">5 mil</option>
+                            <option value="6000000">6 mil</option>
+                            <option value="7000000">7 mil</option>
+                            <option value="8000000">8 mil</option>
+                            <option value="9000000">9 mil</option>
+                        </select>
+                       
+                    </div>
+                    <div class="box">
+                        <p>Maximum Budget <span>*</span></p>
+                        <select name="Maximum" class="input" required>
+                            <option value="1500000">1.5 mil</option>
+                            <option value="2000000">2 mil</option>
+                            <option value="3000000">3 mil</option>
+                            <option value="4000000">4 mil</option>
+                            <option value="5000000">5 mil</option>
+                            <option value="6000000">6 mil</option>
+                            <option value="7000000">7 mil</option>
+                            <option value="8000000">8 mil</option>
+                            <option value="9000000">9 mil</option>
+                        </select>
+                       
+                    </div>
+                </div>
+                <input type="submit" value="Search properties" name="search" class="btn">
+            </form>
+        </section>
+
+
+    </div>
+
+
+
+    <!--Home section ends-->
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+   <!--footer section starts--> 
+<footer class="footer">
+
+    <section class="flex">
+
+
+        <div class="box">
+
+            <a href="tel:1234567890"><i class="fas fa-phone"></i><span>1234567890</span></a>
+            <a href="tel:1112223333"><i class="fas fa-phone"></i><span>1112223333</span></a>
+            <a href="Email: info@gasvinepropertiesimited.com"><i class="fab fa-envolope"></i><span>info@gasvinepropertiesimited.com</span></a>
+            <a href="#"><i class="fas fa-map-marker-alt"></i><span>Lagos, Asaba, Owerri, Awka</span></a>
+
+        </div>
+
+        <div class="box">
+
+            <a href="home.html"><span>Home</span></a>
+            <a href="about.html"><span>About</span></a>
+            <a href="contact.html"><span>Contact</span></a>
+            <a href="listings.html"><span>All listings</span></a>
+            <a href="#"><span>post properties</span></a>
+
+        </div>
+
+        <div class="box">
+
+            <a href="#"><span>Facebook <i class="fab fa-facebook"></i></span></a>
+            <a href="#"><span>Twitter/X <i class="fab fa-x"></i></span></a>
+            <a href="#"><span>Instagram <i class="fab fa-instagram"></i></span></a>
+
+        </div>
+
+
+    </section>
+
+    <div class="credit">&copy; copyright @ 2024 by <span>Gasvinepropertiesimited</span> all rights reserved!</div>
+
+
+</footer>
+
+
+
+   <!--footer section ends--> 
+
+
+
+
+<!--custom js file link-->
+<script src="Assests/js/script.js"></script>    
+</body>
+</html>

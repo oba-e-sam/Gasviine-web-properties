@@ -146,6 +146,9 @@ header .navbar .flex ul li:hover ul li a{
 }
 
 
+home {
+    background-color: ;
+}
 
 
 
@@ -167,7 +170,64 @@ header .navbar .flex ul li:hover ul li a{
 
 
 
+footer {
+    background-color: var(--black);
+}
+footer .credit{
+    padding: 3rem 1rem;
+    text-align: center;
+    border-top: var(--border);
+    font-size: 1.5rem;
+    color: var(--white);
+    margin-top: 2rem;
+}
+footer .credit span{
+    color: #1c0dc2;
+}
 
+footer .flex{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: space-between;
+}
+
+footer .flex .box{
+    flex: 1 1 30rem;
+}
+
+footer .flex .box a{
+    display: block;
+    padding: 1rem 0;
+    font-size: 1.8rem;
+    color: var(--white);
+}
+
+footer .flex .box a span{
+    color: var(--white);
+}
+footer .flex .box a:hover span{
+    text-decoration: underline;
+}
+
+footer .flex .box a i{
+    color: var(--main-color);
+}
+
+footer .flex .box:last-child{
+    text-align: right;
+}
+
+footer .flex .box:last-child a i{
+    margin-left: 1.5rem;
+}
+
+footer .flex .box:first-child a i{
+    margin-right: 1.5rem;
+}
+footer .flex .box:nth-child(2){
+    text-align: center;
+}
 
 
 
