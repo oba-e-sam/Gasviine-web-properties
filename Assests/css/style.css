@@ -6,7 +6,7 @@
     --light-bg: #eee;
     --white: #fff;
     --black: #303030;
-    --border: 1rem solid var(--light-color);
+    --border: .2rem solid var(--light-color);
     --box-shadow: 0.5rem 1rem rgba(0,0,0,.1); 
 }
 
@@ -146,15 +146,58 @@ header .navbar .flex ul li:hover ul li a{
 }
 
 
-home {
-    background-color: ;
+.home {
+    background: url('../images/gasvine\ home.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
+.home .center {
+    min-height: 85vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+.home .center form {
+    background-color: var(--white);
+    padding: 2rem;
+    box-shadow: var(--box-shadow);
+    width: 50rem;
+}
 
+.home .center form h3{
+    padding-bottom: 1rem;
+    text-align: center;
+    color: var(--black);
+    text-transform: capitalize;
+    font-size: 2rem;
+}
 
+.home .center form .flex {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
 
+.home .center form .box{
+    flex: 1 1 20rem;
+}
 
+.home .center form .box .input {
+    width: 100%;
+    border: var(--border);
+    padding: 1.4rem;
+    color: var(--black);
+    font-size: 1.8rem;
+    margin: 1rem o;
+}
+
+.home .center form .box p{
+    color: var(--light-color);
+    font-size: 1.7rem;
+    padding-top: 1rem;
+}
 
 
 
